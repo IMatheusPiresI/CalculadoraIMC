@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="fundo">
+        <div class="calculadora">
+            <h1>Calculadora - IMC</h1>
+            <div class="linha"></div>
+            <div class="inputs">
+                <p><span>Nome:</span><input type="text" id="nome" class="ajuste"></p>
+                <p><span>Altura:</span> <input type="number" id="altura" class="ajuste"></p>
+                <p><span>Peso:</span><input type="number" id="peso" class="ajuste"></p>
+            </div>
+            <div class="divcalcular">
+                <input class="calcular" type="button" value="Calcular" onclick="calcular()">
+            </div>
+
+            <div id="blocores">
+                <p id="res"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
